@@ -1,0 +1,453 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1515239021242,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aeca1e93d5e5e44a5074597f65decaa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c0eed41cb7d1d5bec5ac7e0dde48cfd5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "429d899449b542b63ed36d6ed6790138",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b85cb7ee556f3a3280dac103798a24da",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5f3d91ef5510ee83993bd532b16f68fa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f4d042e9a248e5edd1adfb23a33cbf09",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3dd6fbbcb7a242df6d5468898a5b77e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "655e22ba0b525d6b3bdfcac4f3b2b8ef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "34a7663d425993823c52ddbc7ffce23d",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.145"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.32"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.9.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3dd0f2abc4ac6fe3485453294fb59b39",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-01-06T11:43:36.915Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e840c3cdd971dcbc4e82e9c3f3565a3c",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1515239021252,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9994e7f2ab49f56662b90d2d752c3398",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1515239021253,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "126dd4645e098736de7193cad7fa0eaa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "updatedAt": 1515239021254,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "092741231ae77291a134b5b7eb598690",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1515239021259,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d925dba5f0dfa7f41663f690043ade8c",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "9a550d2d3dec9f30d766dae286151183"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
