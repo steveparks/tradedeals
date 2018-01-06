@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Have We Got A Fucking Trade Deal Yet?`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-netlify`, // make sure this is last in the array
+  ],
 }

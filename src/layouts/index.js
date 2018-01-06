@@ -8,7 +8,7 @@ import './index.css'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'blue',
       marginBottom: '1.45rem',
     }}
   >
@@ -27,7 +27,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Have we got a fucking trade deal yet?
         </Link>
       </h1>
     </div>
@@ -37,10 +37,10 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Have we got a fucking trade deal yet?"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'A simple site to monitor the status of all the easy trade deals the UK has so far with all the countries queuing up to do deals with us.' },
+        { name: 'keywords', content: 'Brexit, Trade, Deals, EU, Tories' },
       ]}
     />
     <Header />

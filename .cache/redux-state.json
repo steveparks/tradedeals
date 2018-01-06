@@ -8,7 +8,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1515239021242,
+      "updatedAt": 1515252414923,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aeca1e93d5e5e44a5074597f65decaa9",
+        "contentDigest": "b24521efff4c4a09050e8449e0f43164",
         "owner": "internal-data-bridge"
       }
     },
@@ -229,26 +229,33 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
-      "name": "gatsby-plugin-react-helmet",
-      "version": "1.0.8",
+    "Plugin gatsby-plugin-netlify": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-netlify",
+      "id": "Plugin gatsby-plugin-netlify",
+      "name": "gatsby-plugin-netlify",
+      "version": "1.0.12",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
-      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet",
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "onPostBuild"
+      ],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-netlify",
       "packageJson": {
-        "name": "gatsby-plugin-react-helmet",
-        "description": "Stub description for gatsby-plugin-react-helmet",
-        "version": "1.0.8",
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "1.0.12",
         "main": "index.js",
         "keywords": [
-          "gatsby"
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "http/2-server-push"
         ],
         "author": {
-          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
         },
         "license": "MIT",
         "dependencies": [
@@ -257,8 +264,16 @@
             "version": "^6.26.0"
           },
           {
-            "name": "react-helmet",
-            "version": "^5.1.3"
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^1.0.0"
           }
         ],
         "devDependencies": [
@@ -278,7 +293,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "655e22ba0b525d6b3bdfcac4f3b2b8ef",
+        "contentDigest": "b1d9e1ece08e0e3e1ed82b3cda0aeafa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -287,7 +302,7 @@
       "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "34a7663d425993823c52ddbc7ffce23d",
+      "version": "cdeaaa5e75206b2935fb504ac4d6f907",
       "pluginOptions": {
         "plugins": []
       },
@@ -306,15 +321,35 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.145"
+            "version": "^1.9.149"
           },
           {
             "name": "gatsby-link",
             "version": "^1.6.32"
           },
           {
+            "name": "gatsby-plugin-netlify",
+            "version": "^1.0.12"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.10"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.5"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.6"
+          },
+          {
+            "name": "typography-theme-parnassus",
+            "version": "^0.15.10"
           }
         ],
         "devDependencies": [
@@ -330,25 +365,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3dd0f2abc4ac6fe3485453294fb59b39",
+        "contentDigest": "b6491bd2c436827c6328c08b4b416048",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Have We Got A Fucking Trade Deal Yet?"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-01-06T11:43:36.915Z",
+      "buildTime": "2018-01-06T15:26:01.159Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e840c3cdd971dcbc4e82e9c3f3565a3c",
+        "contentDigest": "3895e402459387bdad1b2dd30ff260bb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -361,7 +394,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1515239021252,
+      "updatedAt": 1515252366567,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
@@ -370,7 +403,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9994e7f2ab49f56662b90d2d752c3398",
+        "contentDigest": "53de774b728b03431983e4a6f7f9f363",
         "owner": "internal-data-bridge"
       }
     },
@@ -382,7 +415,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1515239021253,
+      "updatedAt": 1515252366568,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
@@ -391,28 +424,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "126dd4645e098736de7193cad7fa0eaa",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "updatedAt": 1515239021254,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "092741231ae77291a134b5b7eb598690",
+        "contentDigest": "9203077903262e03887af34f1cf6a804",
         "owner": "internal-data-bridge"
       }
     },
@@ -424,7 +436,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1515239021259,
+      "updatedAt": 1515252366571,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
@@ -433,14 +445,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d925dba5f0dfa7f41663f690043ade8c",
+        "contentDigest": "341d4ae2eef9a89c6693dfa058380316",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9a550d2d3dec9f30d766dae286151183"
+    "PLUGINS_HASH": "4875298a0638f42a9600b78d51934cbf"
   },
   "componentDataDependencies": {
     "nodes": {},

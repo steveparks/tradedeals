@@ -1,7 +1,4 @@
 var plugins = [{
-      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
-      options: {"plugins":[]},
-    },{
       plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
