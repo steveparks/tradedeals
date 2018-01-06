@@ -2,6 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import g from "glamorous"
+import { css } from "glamor"
+
+
+import { rhythm } from "../utils/typography"
 
 import './index.css'
 
@@ -9,6 +14,7 @@ const Header = () => (
   <div
     style={{
       background: 'blue',
+      color: 'white',
       marginBottom: '1.45rem',
     }}
   >
@@ -20,15 +26,7 @@ const Header = () => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
           Have we got a fucking trade deal yet?
-        </Link>
       </h1>
     </div>
   </div>

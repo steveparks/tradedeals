@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
+      options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
+    },{
+      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-glamor/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
