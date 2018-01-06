@@ -66,9 +66,8 @@ export default ({ data }) => {
       <li>45 Nuclear Agreements</li>
       <li>34 Agriculture Agreements</li>
       </ul>
-      <p>Out of those 759 agreements that will be needed, the UK government has 0.</p>
+      <p>Out of those 759+ agreements that will be needed, the UK government has 0, and formal talks have not even started yet. This site will update as trade deals are announced.</p>
       <h2>Brexit spells disaster for the UK, and our government has failed to prepare. It is our patriotic duty to protect the UK by stopping Brexit.</h2>
-      <p><a href="https://www.stopbrexitmarch.com/">Get involved in stopping Brexit to protect the UK</a>.</p>
       </div>
     )
 }
