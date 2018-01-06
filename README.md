@@ -1,13 +1,9 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Have We Got A Fucking Trade Deal Yet?
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+When campaigning for Brexit, and in their swagger about it since, the UK government has always claimed that countries are lining up to do trade deals with us and that it will be 'easy'.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+So - have we got a fucking trade deal yet?
 
-## Deploy
+This is a simple site that displays the status of the trade deals we need.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+The site is published at https://havewegotafuckingtradedealyet.com
