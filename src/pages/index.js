@@ -22,7 +22,8 @@ export default ({ data }) => {
   <h1 css={{fontSize: '12rem', display: 'block', float: 'left'}}>No</h1>
   <h2 css={{fontSize: '3rem', textAlign: 'right', width: '66%', marginTop: '0.7em', float: 'right'}}>We have 0 fucking trade deals agreed for when fucking Brexit happens</h2>
 
-  <p css={{clear: 'both'}}>Here are all the countries in the world, and the status of UK trade deals with them ready for when we lose all our EU member benefits next year...</p>
+  <p css={{clear: 'both'}}>The list below shows all the countries in the world, and the status of UK trade deals with them ready for when we lose all our EU member benefits next year.</p>
+  <p>At the bottom of the page is a summary of the full analysis by the Financial Times of treaties that will need to be negotiated - and some ideas for action you can take to stop this fucking madness.</p>
 
   <table>
         <thead>
