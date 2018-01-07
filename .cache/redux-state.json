@@ -8,7 +8,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1515333916863,
+      "updatedAt": 1515347542034,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b5484fef0c8f2cee5e9759838b31b502",
+        "contentDigest": "4bd58b47a27c6d85b749a5a71e31f2c3",
         "owner": "internal-data-bridge"
       }
     },
@@ -751,6 +751,10 @@
             "version": "^4.11.2"
           },
           {
+            "name": "react-deadline",
+            "version": "^1.0.1"
+          },
+          {
             "name": "react-typography",
             "version": "^0.16.5"
           },
@@ -789,12 +793,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-01-07T14:05:13.315Z",
+      "buildTime": "2018-01-07T17:52:18.070Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b30358f7c4665e040d3fbcbc66cab481",
+        "contentDigest": "5c369977aeff991b8a908f6462e4d570",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -804,7 +808,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4e3b5d1ed1070929dd021994d20b39b1",
+        "contentDigest": "30a9039a37b2482e4b52559bc7c42c81",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -815,7 +819,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-01-06T20:24:45.000Z",
-      "accessTime": "2018-01-07T14:05:16.600Z",
+      "accessTime": "2018-01-07T17:52:21.457Z",
       "changeTime": "2018-01-06T20:24:45.215Z",
       "birthTime": "2018-01-06T18:02:55.000Z",
       "root": "/",
@@ -833,11 +837,11 @@
       "blksize": 4194304,
       "ino": 8593776289,
       "blocks": 0,
-      "atimeMs": 1515333916599.7822,
+      "atimeMs": 1515347541456.8108,
       "mtimeMs": 1515270285000,
       "ctimeMs": 1515270285215.1682,
       "birthtimeMs": 1515261775000,
-      "atime": "2018-01-07T14:05:16.600Z",
+      "atime": "2018-01-07T17:52:21.457Z",
       "mtime": "2018-01-06T20:24:45.000Z",
       "ctime": "2018-01-06T20:24:45.215Z",
       "birthtime": "2018-01-06T18:02:55.000Z"
@@ -1055,7 +1059,7 @@
       "size": 17132,
       "prettySize": "17.1 kB",
       "modifiedTime": "2018-01-06T20:24:37.592Z",
-      "accessTime": "2018-01-06T23:33:37.006Z",
+      "accessTime": "2018-01-07T14:05:17.113Z",
       "changeTime": "2018-01-06T20:24:37.592Z",
       "birthTime": "2018-01-06T16:07:47.235Z",
       "root": "/",
@@ -1073,11 +1077,11 @@
       "blksize": 4194304,
       "ino": 8593732195,
       "blocks": 40,
-      "atimeMs": 1515281617005.5996,
+      "atimeMs": 1515333917112.8757,
       "mtimeMs": 1515270277591.9338,
       "ctimeMs": 1515270277591.9338,
       "birthtimeMs": 1515254867235.2083,
-      "atime": "2018-01-06T23:33:37.006Z",
+      "atime": "2018-01-07T14:05:17.113Z",
       "mtime": "2018-01-06T20:24:37.592Z",
       "ctime": "2018-01-06T20:24:37.592Z",
       "birthtime": "2018-01-06T16:07:47.235Z"
@@ -5185,7 +5189,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1515333916873,
+      "updatedAt": 1515347542046,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
@@ -5194,7 +5198,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0efe4383c476a05126428ef8987e5d84",
+        "contentDigest": "015e2a963863c47b701909c5548a2649",
         "owner": "internal-data-bridge"
       }
     },
@@ -5206,7 +5210,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1515333916877,
+      "updatedAt": 1515347542047,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
@@ -5215,7 +5219,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ef357becf71a3df126d21b07a3840ea6",
+        "contentDigest": "03ef5be177e4fda921c93af478f74eba",
         "owner": "internal-data-bridge"
       }
     },
@@ -5227,7 +5231,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1515333916880,
+      "updatedAt": 1515347542049,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
@@ -5236,14 +5240,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0ad7ae7fe657d42e210512b4d2e527fa",
+        "contentDigest": "d6c80b21d3d88e566fcd587f62d2bd39",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "613e5a17c372dcea12e5526c2adf5f36"
+    "PLUGINS_HASH": "44ffc0d6dc6ba19b7183f7e1c0cd3671"
   },
   "componentDataDependencies": {
     "nodes": {},

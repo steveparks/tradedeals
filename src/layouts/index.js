@@ -33,6 +33,32 @@ const Header = () => (
   </div>
 )
 
+const Footer = () => (
+  <div
+    style={{
+      background: 'blue',
+      color: 'white',
+      marginBottom: '1.45rem',
+    }}
+  >
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '1.45rem 1.0875rem',
+      }}
+    >
+      <p>
+        This site is a 'Fucking Brexit' project. Our aim is to turn anger about the fucking mess the UK government is making into informed action, with a little humour along the way.
+      </p>
+      <p>
+        Follow us on Twitter at <a href="https://twitter.com/fuckingbrexit" style={{color: 'white'}}>@fuckingbrexit</a>
+      </p>
+    </div>
+  </div>
+
+)
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -53,6 +79,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 

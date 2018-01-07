@@ -86,6 +86,7 @@ export default ({ data }) => {
       </ul>
       <p>There are good people out there doing good work. You are not alone, and you can be part of the movement to Stop Brexit or at least reduce its harmful impact.</p>
       <h1>Love Britain - Stop Brexit</h1>
+      <br />
       </div>
     )
 }
