@@ -19,6 +19,12 @@ module.exports = {
         name: `data`,
       },
     },
+    {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "UA-79395723-2",
+    },
+  },
     `gatsby-plugin-netlify`, // make sure this is last in the array
   ],
 }

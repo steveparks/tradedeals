@@ -8,6 +8,9 @@ var plugins = [{
       plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-glamor/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
+      options: {"plugins":[],"trackingId":"UA-79395723-2"},
+    },{
       plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]

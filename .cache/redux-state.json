@@ -8,7 +8,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1515275655644,
+      "updatedAt": 1515324124979,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4e849218bdf51138b04058e45c89d3d7",
+        "contentDigest": "98464d245291043dcdedbc5f77e6a29a",
         "owner": "internal-data-bridge"
       }
     },
@@ -562,6 +562,60 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-79395723-2"
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5b955d8626c1a9863fb7012684ea2cee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-netlify": {
       "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-netlify",
       "id": "Plugin gatsby-plugin-netlify",
@@ -635,7 +689,7 @@
       "resolve": "/Users/steveparksconvivio/Documents/GitHub/tradedeals",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "177f90376869e8d3641544161b43c1bd",
+      "version": "b36a15cddaf23a8a29de358bc5af75e1",
       "pluginOptions": {
         "plugins": []
       },
@@ -667,6 +721,10 @@
           {
             "name": "gatsby-plugin-glamor",
             "version": "^1.6.10"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.15"
           },
           {
             "name": "gatsby-plugin-netlify",
@@ -718,7 +776,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6dd8f9a72a07f12e31405f2b922f9d0b",
+        "contentDigest": "b551b03ea2c4acbbcabe4e7ef79d28bd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -731,12 +789,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-01-06T21:54:11.749Z",
+      "buildTime": "2018-01-07T11:22:01.162Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "833f82b40169de336b6587a40596b719",
+        "contentDigest": "c67a8977c704f55f48fd160d9d3ff5d0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -746,7 +804,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c526ea95e9f08f0bf23e17fff9fb5e3c",
+        "contentDigest": "9767f06af3b4c0b3918e368232dfd387",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -757,7 +815,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-01-06T20:24:45.000Z",
-      "accessTime": "2018-01-06T21:54:15.052Z",
+      "accessTime": "2018-01-07T11:22:04.372Z",
       "changeTime": "2018-01-06T20:24:45.215Z",
       "birthTime": "2018-01-06T18:02:55.000Z",
       "root": "/",
@@ -775,11 +833,11 @@
       "blksize": 4194304,
       "ino": 8593776289,
       "blocks": 0,
-      "atimeMs": 1515275655052.2625,
+      "atimeMs": 1515324124371.8364,
       "mtimeMs": 1515270285000,
       "ctimeMs": 1515270285215.1682,
       "birthtimeMs": 1515261775000,
-      "atime": "2018-01-06T21:54:15.052Z",
+      "atime": "2018-01-07T11:22:04.372Z",
       "mtime": "2018-01-06T20:24:45.000Z",
       "ctime": "2018-01-06T20:24:45.215Z",
       "birthtime": "2018-01-06T18:02:55.000Z"
@@ -997,7 +1055,7 @@
       "size": 17132,
       "prettySize": "17.1 kB",
       "modifiedTime": "2018-01-06T20:24:37.592Z",
-      "accessTime": "2018-01-06T21:53:50.195Z",
+      "accessTime": "2018-01-06T23:33:37.006Z",
       "changeTime": "2018-01-06T20:24:37.592Z",
       "birthTime": "2018-01-06T16:07:47.235Z",
       "root": "/",
@@ -1015,11 +1073,11 @@
       "blksize": 4194304,
       "ino": 8593732195,
       "blocks": 40,
-      "atimeMs": 1515275630194.7717,
+      "atimeMs": 1515281617005.5996,
       "mtimeMs": 1515270277591.9338,
       "ctimeMs": 1515270277591.9338,
       "birthtimeMs": 1515254867235.2083,
-      "atime": "2018-01-06T21:53:50.195Z",
+      "atime": "2018-01-06T23:33:37.006Z",
       "mtime": "2018-01-06T20:24:37.592Z",
       "ctime": "2018-01-06T20:24:37.592Z",
       "birthtime": "2018-01-06T16:07:47.235Z"
@@ -5127,7 +5185,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1515275655655,
+      "updatedAt": 1515324124994,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
@@ -5136,7 +5194,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d020992492cdfcb97c43434007b4ff93",
+        "contentDigest": "43c85fb516044bc945fbb035b73be20c",
         "owner": "internal-data-bridge"
       }
     },
@@ -5148,7 +5206,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1515275655657,
+      "updatedAt": 1515324124997,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/index.js",
@@ -5157,7 +5215,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aa439502566d9a9db70cdaab8224b592",
+        "contentDigest": "e8015b388c70e32cddcccc6c30116dd6",
         "owner": "internal-data-bridge"
       }
     },
@@ -5169,7 +5227,7 @@
       "component": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1515275655663,
+      "updatedAt": 1515324125003,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/steveparksconvivio/Documents/GitHub/tradedeals/src/pages/404.js",
@@ -5178,23 +5236,23 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4b73145cc540da76a1689e57fa29f821",
+        "contentDigest": "b9867c6902fd7c8b12038579317d05ef",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6521633633878778de551d02e7f5feaa"
+    "PLUGINS_HASH": "613e5a17c372dcea12e5526c2adf5f36"
   },
   "componentDataDependencies": {
     "nodes": {},
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "CountriesCsv": [
         "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }
