@@ -22,13 +22,13 @@ export default ({ data }) => {
   <h1 css={{fontSize: '12rem', display: 'block', float: 'left'}}>No</h1>
   <h2 css={{fontSize: '3rem', textAlign: 'right', width: '66%', marginTop: '0.7em', float: 'right'}}>We have 0 fucking trade deals agreed for when fucking Brexit happens</h2>
 
-  <p css={{clear: 'both'}}>Here are all the countries in the world, and the status of our trade deals with them ready for when we lose our EU member benefits next year...</p>
+  <p css={{clear: 'both'}}>Here are all the countries in the world, and the status of UK trade deals with them ready for when we lose all our EU member benefits next year...</p>
 
   <table>
         <thead>
           <tr>
             <th>Country</th>
-            <th>Do we have a fucking trade deal?</th>
+            <th css={{textAlign: 'right'}}>Do we have a fucking trade deal?</th>
           </tr>
         </thead>
         <tbody>
@@ -38,7 +38,7 @@ export default ({ data }) => {
                 <span className="flag-icon flag-icon-{node.country}"></span>
                 {node.name}
               </td>
-              <td>
+              <td css={{textAlign: 'right'}}>
               {node.country === "GB" &&
                 "Trading with ourselves doesn't fucking count"
               }
@@ -48,7 +48,7 @@ export default ({ data }) => {
               }
 
               {node.uktradedeal === "0" &&
-                "No we fucking don't have a trade deal"
+                "No we fucking don't have a trade deal, and haven't even started negotiations"
               }
               </td>
             </tr>
@@ -66,7 +66,7 @@ export default ({ data }) => {
       <li>45 Nuclear Agreements</li>
       <li>34 Agriculture Agreements</li>
       </ul>
-      <p>Out of those 759+ agreements that will be needed, the UK government has 0, and formal talks have not even started yet. This site will update as trade deals are announced.</p>
+      <p>Out of those 759+ agreements that will be needed, the UK government has 0 and has started formal talks with 0 nations. This site will update as trade deals are announced.</p>
       <h2>Brexit spells disaster for the UK, and our government has failed to prepare. It is our patriotic duty to protect the UK by stopping Brexit.</h2>
       </div>
     )
