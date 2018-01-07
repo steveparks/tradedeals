@@ -9,6 +9,7 @@ import { css } from "glamor"
 import { rhythm } from "../utils/typography"
 
 import './index.css'
+import './flag-icon.css'
 
 const Header = () => (
   <div

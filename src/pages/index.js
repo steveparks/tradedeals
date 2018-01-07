@@ -36,7 +36,7 @@ export default ({ data }) => {
           {data.allCountriesCsv.edges.map(({ node }, index) =>
             <tr key={index}>
               <td>
-                <span className="flag-icon flag-icon-{node.country}"></span>
+                <span className={'flag-icon flag-icon-' + node.country.toLowerCase()}></span>
                 {node.name}
               </td>
               <td css={{textAlign: 'right'}}>
