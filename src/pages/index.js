@@ -76,7 +76,7 @@ export default ({ data }) => {
             <li><a href="https://www.crowdjustice.com/case/a50-chall-her-e50/">Challenge the unconstitutional notification of Article 50</a>.</li>
             <li><a href="https://www.crowdjustice.com/case/secretbrexitstudies/">Force full disclouse of the Brexit 'impact studies'</a>.</li>
             <li><a href="https://www.crowdjustice.com/case/did-vote-leave-break-spending-limits/">Bring Vote Leave to account for allegedly breaking campaign spending rules</a>.</li>
-            <li><a href="https://www.crowdjustice.com/case/strengthening/">Ensure the government allows parliameng to vote on all options</a>.</li>
+            <li><a href="https://www.crowdjustice.com/case/strengthening/">Ensure the government allows parliament to vote on all options</a>.</li>
           </ul>
         </li>
         <li><a href="https://www.stopbrexitmarch.com/">Take part in marches and campaigns across the UK to Stop Brexit</a>.</li>
