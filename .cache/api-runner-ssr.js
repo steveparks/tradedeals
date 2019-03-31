@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/steveparks/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
+      plugin: require('/Users/steveparks/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     },{
-      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-glamor/gatsby-ssr.js'),
+      plugin: require('/Users/steveparks/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-glamor/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
+      plugin: require('/Users/steveparks/Documents/GitHub/tradedeals/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
       options: {"plugins":[],"trackingId":"UA-79395723-2"},
     },{
-      plugin: require('/Users/steveparksconvivio/Documents/GitHub/tradedeals/gatsby-ssr.js'),
+      plugin: require('/Users/steveparks/Documents/GitHub/tradedeals/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
