@@ -1,8 +1,3 @@
-
-
-packages/*/yarn.lock
-packages/*/package-lock.json
-
 # Logs
 logs
 *.log
@@ -21,7 +16,6 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-junit.xml
 
 # nyc test coverage
 .nyc_output
@@ -41,35 +35,12 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-examples/biz-website/public/
-examples/blog/public
-*.un~
-dist
-bin/published.js
-
-# Build path of test fixtures
-test/**/public
-.gatsby-context.js
-.DS_Store
-node_modules/
-.npm
-.cache/
-.netlify
-
-# IDE specific
-.idea/
-.vscode/
-*.sw*
 
 # Typescript v1 declaration files
 typings/
 
-# misc
-.serverless/
-
-# lock files
-yarn.lock
-package-lock.json
+# Optional npm cache directory
+.npm
 
 # Optional eslint cache
 .eslintcache
@@ -86,5 +57,3 @@ package-lock.json
 # dotenv environment variables file
 .env
 
-# persist the lock files of starters
-!starters/*/package-lock.json
